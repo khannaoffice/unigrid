@@ -1,0 +1,74 @@
+{
+  "name": "@khannaoffice/unigrid",
+  "version": "1.0.0",
+  "description": "A fixed-module grid for React, developed in the lineage of Massimo Vignelli’s Unigrid for the National Park Service.",
+  "license": "SEE LICENSE IN LICENSE",
+  "author": "KhannaOffice",
+  "type": "module",
+  "sideEffects": false,
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khannaoffice/unigrid.git"
+  },
+  "homepage": "https://github.com/khannaoffice/unigrid#readme",
+  "bugs": {
+    "url": "https://github.com/khannaoffice/unigrid/issues"
+  },
+  "scripts": {
+    "clean": "node -e \"require('node:fs').rmSync('dist', { recursive: true, force: true })\"",
+    "build": "npm run clean && tsc",
+    "test:unit": "node --test test/*.test.mjs",
+    "test": "npm run build && npm run test:unit",
+    "test:browser": "npm run build && playwright test",
+    "test:browser:react18": "node scripts/run-browser-version.mjs 18.3.1",
+    "test:browser:react19": "node scripts/run-browser-version.mjs 19.2.6",
+    "test:browser:matrix": "npm run test:browser:react18; s1=$?; npm run test:browser:react19; s2=$?; exit $(( s1 > s2 ? s1 : s2 ))",
+    "test:consumer": "npm run build && node scripts/consumer-test.mjs",
+    "verify": "npm test && npm run test:browser:matrix",
+    "check:release": "npm run verify && node scripts/consumer-test.mjs && npm pack --dry-run --json",
+    "prepublishOnly": "npm run check:release"
+  },
+  "peerDependencies": {
+    "react": ">=18 <20"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/react": "^18.3.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.5.3"
+  },
+  "keywords": [
+    "react",
+    "unigrid",
+    "modular-grid",
+    "fixed-module-grid",
+    "fluid-grid",
+    "grid",
+    "layout",
+    "design-system",
+    "vignelli"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}

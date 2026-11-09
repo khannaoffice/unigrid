@@ -1,0 +1,298 @@
+KHANNAOFFICE UNIGRID LICENSE 1.0
+
+Copyright © 2026 Rohan Khanna, carrying on business as KhannaOffice. All rights reserved.
+
+Effective date: August 11, 2026.
+
+This License governs `@khannaoffice/unigrid`.
+
+By exercising any permission granted by this License, You accept and agree to its terms.
+
+## 1. Definitions
+
+“KhannaOffice” means Rohan Khanna, carrying on business as KhannaOffice, as the licensor identified in the copyright notice above.
+
+“You” means the individual or legal entity exercising permissions under this License. If You act on behalf of an organization, You represent that You have authority to bind that organization, and “You” includes that organization.
+
+“Software” means `@khannaoffice/unigrid`, including its source code, compiled code, documentation distributed with the package, and any modification or derivative version of the Software.
+
+“Permitted Project” means a website or web application created, developed, operated, maintained, or delivered for end use by You, Your organization, or a client. A Permitted Project may be personal or commercial and may itself be sold, licensed, transferred, hosted, or monetized. A Reusable Software Product is excluded from the definition of a Permitted Project.
+
+“Reusable Software Product” means software, source material, tooling, or a service whose purpose or practical effect is to make the Software, a material portion of the Software, or functionality derived from or incorporating the Software available to third parties for reuse across projects. This includes libraries, packages, frameworks, component systems, design-system products, SDKs, starter kits, reusable templates, template libraries, website builders, application builders, visual layout tools, development platforms, white-label development systems, and similar reusable development products or services.
+
+## 2. Permission
+
+Subject to the terms of this License, KhannaOffice grants You a worldwide, royalty-free, non-exclusive license to use, copy, and modify the Software to create, develop, operate, maintain, and deliver Permitted Projects.
+
+You may use the Software for:
+
+- personal projects;
+- commercial projects;
+- websites and web applications owned or operated by You or Your organization;
+- websites and web applications created for clients;
+- paid freelance, studio, agency, consulting, and development work; and
+- internal development and prototyping related to Permitted Projects.
+
+You may charge any fee You choose for design, development, consulting, maintenance, hosting, support, or other work performed in connection with a Permitted Project.
+
+## 3. Client Work, Collaboration, and Private Infrastructure
+
+You may incorporate the Software into a Permitted Project created for a client and may deliver that completed project, including its source code, to the client.
+
+A client receiving a Permitted Project may use, operate, maintain, modify, and further develop the Software as incorporated into that project, subject directly to this License.
+
+You may provide the Software to employees, contractors, agencies, developers, designers, and other collaborators solely as reasonably necessary for them to work on a Permitted Project.
+
+You may maintain a private or internal modified version of the Software and use it across multiple Permitted Projects, including projects for different clients.
+
+You may maintain and distribute the Software through private source repositories, private package registries, build systems, caches, continuous-integration systems, or other internal development infrastructure solely for use by You and Your collaborators in connection with Permitted Projects.
+
+Private internal distribution under the preceding paragraph does not permit public distribution or the provision of the Software as a Reusable Software Product.
+
+Receiving the Software for work on a Permitted Project does not grant a client or collaborator the right to redistribute or commercialize the Software as a Reusable Software Product.
+
+## 4. Distribution as Part of a Permitted Project
+
+You may distribute compiled, bundled, minified, transformed, or otherwise incorporated portions of the Software as reasonably necessary to deliver a Permitted Project to its users.
+
+You may provide the Software in source form to a client or collaborator when reasonably necessary to create, deliver, operate, maintain, or modify that Permitted Project.
+
+These forms of distribution are expressly permitted.
+
+A public website or web application may therefore deliver compiled or bundled Software to users through ordinary web operation without violating this License.
+
+## 5. Reusable Redistribution Is Prohibited
+
+Except as expressly permitted for a Permitted Project or for private internal infrastructure under Section 3, You may not sell, sublicense, license, rent, lease, republish, repackage, or otherwise distribute the Software, whether modified or unmodified, as a Reusable Software Product.
+
+Without limiting the preceding paragraph, You may not make the Software, a material portion of the Software, or a derivative version of the Software available to third parties as:
+
+- a standalone library or package;
+- an npm package or equivalent package-registry distribution;
+- a framework;
+- a reusable grid or layout system;
+- a component library or component system;
+- a design-system product;
+- a software development kit;
+- a reusable template library;
+- a reusable starter kit;
+- a theme or template product intended for repeated installation or reuse across separate projects;
+- a website-building toolkit;
+- an application-building toolkit;
+- a visual layout or page-building tool;
+- a white-label development product;
+- a hosted development platform that exposes functionality derived from or incorporating the Software as a reusable capability;
+- an API or service that exposes functionality derived from or incorporating the Software for use in third-party projects;
+- a paid or unpaid download of the Software itself; or
+- a similar reusable software product or service derived from or incorporating the Software.
+
+You may not rename, rebrand, fork, or modify the Software and then distribute the resulting software as Your own reusable library, framework, package, template system, development tool, or product.
+
+Modifications, additional features, different styling, different naming, or additional code do not remove this restriction when the resulting product continues to contain or derive from the Software and makes that functionality available for reuse across projects.
+
+Nothing in this Section prohibits You from independently creating software that does not copy, incorporate, modify, or derive from the Software.
+
+## 6. End-Use Applications and Hosted Services
+
+You may operate a commercial website or web application whose own interface or product experience uses the Software.
+
+You may charge users to access such a website or web application.
+
+For clarity, ordinary SaaS products, editorial sites, commerce sites, portfolios, internal applications, dashboards, and other end-use applications may use the Software as part of their interface.
+
+You may not use the Software to provide third parties with a reusable website-building, application-building, page-building, layout-building, template-building, or development capability for creating separate projects.
+
+A hosted service remains permitted when its own interface uses the Software. The restriction applies when functionality derived from or incorporating the Software is itself made available to third parties as reusable development functionality for creating or supplying other projects.
+
+## 7. Templates, Themes, and Starter Kits
+
+You may create templates, themes, patterns, starter material, and other reusable development material for Your own internal use in Permitted Projects.
+
+You may create and transfer bespoke source code as part of a specific Permitted Project for a client.
+
+You may not sell, publish, distribute, or otherwise make available a reusable template, theme, starter kit, boilerplate, or similar product when the Software or functionality derived from or incorporating the Software forms part of the reusable value of that product.
+
+For clarity:
+
+- selling or transferring a completed website or web application is permitted;
+- delivering source code for a specific client project is permitted;
+- using an internal starter across Your own client practice is permitted;
+- storing an internal starter in a private repository or private package registry is permitted;
+- selling the same Unigrid-based starter, theme, or reusable template to multiple customers as a development product is prohibited; and
+- operating a marketplace or service that supplies Unigrid-based reusable templates or development artifacts to third parties is prohibited.
+
+## 8. Projects May Be Sold
+
+Nothing in this License prevents You from selling, licensing, transferring, or otherwise commercially exploiting a Permitted Project that incorporates the Software as part of the larger project.
+
+For clarity, You may:
+
+- build a website for a client and charge for it;
+- transfer the completed website and its source code to the client;
+- build commercial websites using the Software;
+- operate a commercial web application using the Software;
+- charge users to access a web application incorporating the Software;
+- use the Software across multiple client engagements; and
+- charge for Your own labor, expertise, design, development, hosting, support, or maintenance.
+
+The restrictions in Sections 5 through 7 apply to commercialization or redistribution of the Software as reusable software or reusable development functionality. They do not prevent commercialization of Permitted Projects created with the Software.
+
+## 9. Your Code, Modifications, and Application Licensing
+
+You may modify the Software for Your own use and for use in Permitted Projects.
+
+You may maintain private forks, internal variants, extensions, integrations, and tooling based on the Software.
+
+You are not required to publish Your modifications or disclose the source code of a Permitted Project.
+
+You own the copyright in original code, content, designs, and other original material that You create.
+
+You may license Your original code and other original material in a Permitted Project under terms of Your choosing, provided those terms do not purport to grant rights in the Software beyond the rights granted by this License.
+
+A Permitted Project does not become a derivative version of the Software merely because it imports, links to, calls, bundles, or uses the Software.
+
+To the extent Your modifications to the Software itself constitute derivative works of the Software, Your ownership of Your original contributions does not affect KhannaOffice’s ownership of the underlying Software and does not create a right to redistribute the resulting derivative as a Reusable Software Product.
+
+## 10. No Standalone Sublicensing
+
+You may not grant another person or organization an independent sublicense to redistribute or commercialize the Software as a Reusable Software Product.
+
+A client or collaborator who receives the Software as part of a Permitted Project receives rights directly under this License rather than through an independent sublicense from You.
+
+## 11. Patent License
+
+Subject to the terms of this License, KhannaOffice grants You a worldwide, royalty-free, non-exclusive patent license under patent claims that KhannaOffice owns or controls and that are necessarily infringed by exercising the permissions expressly granted to You under this License.
+
+This patent license extends only as far as necessary to exercise those permitted rights.
+
+If You initiate patent litigation alleging that the Software itself infringes a patent, the patent license granted to You under this Section terminates when that litigation is filed.
+
+This Section does not grant rights under patents unrelated to the Software or unrelated to the permissions granted by this License.
+
+## 12. Copyright and License Notices
+
+You must retain KhannaOffice copyright and license notices in copies of the Software or substantial portions of the Software that You distribute in source form.
+
+You are not required to display a KhannaOffice notice, attribution, badge, logo, link, or other credit in the visible interface of a Permitted Project.
+
+Compiled, bundled, or minified production code does not need to display visible attribution to KhannaOffice.
+
+## 13. Ownership
+
+The Software is licensed, not sold.
+
+KhannaOffice retains all right, title, and interest in and to the Software except for the limited rights expressly granted by this License.
+
+Nothing in this License transfers ownership of the Software to You.
+
+You retain ownership of Your original code, content, designs, applications, websites, and other work, subject to KhannaOffice’s rights in the Software and subject to the restrictions applicable to derivative versions of the Software.
+
+## 14. Trademarks and Product References
+
+This License does not grant any right to use the KhannaOffice name, trademarks, logos, trade dress, or other KhannaOffice brand assets in a manner that suggests sponsorship, endorsement, authorship, or affiliation.
+
+Ordinary truthful references to the Software are permitted.
+
+You may identify the Software by the name “Unigrid” and by the package identifier `@khannaoffice/unigrid` when accurately referring to the Software or identifying it as a dependency.
+
+Nothing in this License grants exclusive trademark rights in the word “Unigrid.”
+
+## 15. Contributions to the Official Project
+
+Submission of code, documentation, or other material to the official KhannaOffice Unigrid repository is governed by the contribution terms published with that repository.
+
+KhannaOffice is not required to accept any contribution.
+
+A contribution is not incorporated into the official project unless it is accepted by KhannaOffice.
+
+Nothing in this License requires a user of the Software to contribute modifications back to KhannaOffice.
+
+## 16. No Warranty
+
+THE SOFTWARE IS PROVIDED “AS IS” AND WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT.
+
+KHANNAOFFICE DOES NOT WARRANT THAT THE SOFTWARE WILL BE ERROR-FREE, SECURE, UNINTERRUPTED, OR SUITABLE FOR ANY PARTICULAR PURPOSE.
+
+YOU USE THE SOFTWARE AT YOUR OWN RISK.
+
+## 17. Limitation of Liability
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, KHANNAOFFICE AND ITS AUTHORS, CONTRIBUTORS, OWNERS, EMPLOYEES, AND AFFILIATES WILL NOT BE LIABLE FOR ANY CLAIM, LOSS, DAMAGE, LIABILITY, COST, OR EXPENSE ARISING FROM OR RELATED TO THE SOFTWARE OR ITS USE, WHETHER IN CONTRACT, TORT, NEGLIGENCE, STRICT LIABILITY, OR OTHERWISE.
+
+THIS INCLUDES, WITHOUT LIMITATION, INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES, LOSS OF PROFITS, LOSS OF REVENUE, LOSS OF DATA, BUSINESS INTERRUPTION, OR LOSS OF GOODWILL.
+
+TO THE EXTENT APPLICABLE LAW DOES NOT PERMIT COMPLETE EXCLUSION OF LIABILITY, THE TOTAL AGGREGATE LIABILITY OF KHANNAOFFICE ARISING FROM OR RELATING TO THE SOFTWARE WILL NOT EXCEED THE GREATER OF CAD $100 OR THE AMOUNT YOU PAID KHANNAOFFICE DIRECTLY FOR THE SOFTWARE DURING THE TWELVE MONTHS PRECEDING THE EVENT GIVING RISE TO THE CLAIM.
+
+## 18. Termination and Cure
+
+If You materially violate this License, KhannaOffice may give You written notice describing the violation.
+
+If You fully cure the violation within 30 days after receiving that notice, including ceasing prohibited distribution and removing unauthorized offerings or copies within Your control, Your rights under this License will continue without interruption.
+
+Cure prevents termination under this Section but does not retroactively authorize prohibited conduct or waive any claim that accrued before cure.
+
+If You do not fully cure the violation within that 30-day period, Your rights under this License terminate automatically at the end of the cure period.
+
+For a repeated material violation of substantially the same provision occurring within twelve months after a prior written notice and cure, KhannaOffice may terminate Your rights under this License by written notice without providing an additional cure period.
+
+Termination does not affect rights already validly received by clients for Permitted Projects before termination, provided those clients remain in compliance with this License.
+
+Termination does not prevent KhannaOffice from seeking any remedy available under applicable law for prohibited conduct.
+
+Sections concerning restrictions, ownership, patents, trademarks, warranty, liability, termination, and provisions that by their nature should survive termination will continue to apply.
+
+## 19. License Versions
+
+This is version 1.0 of the KhannaOffice Unigrid License.
+
+The version of this License distributed with a particular copy or release of the Software governs that copy or release.
+
+KhannaOffice may publish revised versions of this License for future releases of the Software.
+
+Publication of a revised license does not retroactively change the terms governing a copy of the Software previously received under this version.
+
+You may continue using a copy of the Software under the license version that accompanied that copy, subject to its terms.
+
+A later license version applies to an earlier copy only if KhannaOffice expressly grants that option.
+
+## 20. Compliance With Law
+
+This License does not authorize conduct prohibited by applicable law.
+
+You are responsible for complying with laws and regulations applicable to Your use, operation, distribution, or commercialization of a Permitted Project.
+
+Nothing in this License excludes, restricts, or overrides any right or protection that applicable law does not permit the parties to exclude, restrict, or override.
+
+## 21. Governing Law and Jurisdiction
+
+This License is governed by the laws of the Province of British Columbia and the federal laws of Canada applicable in British Columbia, without regard to conflict-of-law principles.
+
+Subject to any mandatory jurisdiction established by applicable law, You and KhannaOffice submit to the jurisdiction of the courts of British Columbia for disputes arising from or relating to this License or the Software.
+
+Nothing in this Section prevents either party from seeking relief in the Federal Court of Canada where that Court has jurisdiction over the subject matter of the proceeding.
+
+## 22. Severability
+
+If any provision of this License is held invalid or unenforceable, the remaining provisions will remain in effect to the fullest extent permitted by law.
+
+Any invalid or unenforceable provision should be interpreted or limited as narrowly as necessary to make it enforceable while preserving its intended purpose as closely as possible.
+
+## 23. No Waiver
+
+A failure by KhannaOffice to enforce a provision of this License does not waive the right to enforce that provision or any other provision later.
+
+## 24. Entire License
+
+This License states the permissions KhannaOffice grants for the Software.
+
+No additional permission is implied merely because source code is publicly accessible or because the Software is distributed through a public package registry.
+
+Any use of the Software outside the permissions granted by this License requires separate written permission from KhannaOffice.
+
+---
+
+In plain language:
+
+Use Unigrid freely to make websites and web applications for yourself, your company, or your clients. Modify it. Make money from the things you build with it. Hand those projects to your clients. Use it across your practice.
+
+Just do not take Unigrid itself, repackage it, and turn it into your own library, framework, component system, template product, service, or software product.

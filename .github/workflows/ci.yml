@@ -1,0 +1,71 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  unit:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        include:
+          - react: 18.3.1
+            types: 18
+          - react: 19.2.6
+            types: 19
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm install --no-save react@${{ matrix.react }} react-dom@${{ matrix.react }} @types/react@${{ matrix.types }} @types/react-dom@${{ matrix.types }}
+      - run: npm test
+
+  browser:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        include:
+          - react: 18.3.1
+            types: 18
+          - react: 19.2.6
+            types: 19
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm install --no-save react@${{ matrix.react }} react-dom@${{ matrix.react }} @types/react@${{ matrix.types }} @types/react-dom@${{ matrix.types }}
+      - run: npx playwright install --with-deps chromium firefox webkit
+      - run: npm run test:browser
+        env:
+          REACT_VERSION: ${{ matrix.react }}
+
+  package:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        include:
+          - react: 18.3.1
+            types: 18
+          - react: 19.2.6
+            types: 19
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm install --no-save react@${{ matrix.react }} react-dom@${{ matrix.react }} @types/react@${{ matrix.types }} @types/react-dom@${{ matrix.types }}
+      - run: npx playwright install --with-deps chromium
+      - run: npm run build
+      - run: node scripts/consumer-test.mjs
+        env:
+          REACT_VERSION: ${{ matrix.react }}
+      - run: npm pack --dry-run --json
