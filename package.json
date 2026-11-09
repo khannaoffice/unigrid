@@ -1,6 +1,6 @@
 {
   "name": "@khannaoffice/unigrid",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A fixed-module grid for React, developed in the lineage of Massimo Vignelli’s Unigrid for the National Park Service.",
   "license": "SEE LICENSE IN LICENSE",
   "author": "KhannaOffice",

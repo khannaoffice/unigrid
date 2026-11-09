@@ -9,7 +9,7 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 test('package identity matches the core-package release', async () => {
   const pkg = JSON.parse(await readFile(path.join(root, 'package.json'), 'utf8'))
   assert.equal(pkg.name, '@khannaoffice/unigrid')
-  assert.equal(pkg.version, '1.0.0')
+  assert.equal(pkg.version, '1.0.1')
   assert.equal(pkg.description, 'A fixed-module grid for React, developed in the lineage of Massimo Vignelli’s Unigrid for the National Park Service.')
   assert.equal(pkg.license, 'SEE LICENSE IN LICENSE')
   assert.deepEqual(pkg.files, ['dist', 'src', 'README.md', 'LICENSE'])
